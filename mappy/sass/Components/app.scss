@@ -1,0 +1,117 @@
+.app {
+  width: 120rem;
+  height: 60rem;
+  background-color: $color-white;
+  border-radius: 10px;
+  overflow: hidden;
+
+  display: grid;
+  grid-template-columns: 40fr 60fr;
+
+  &__logo--content {
+    width: 80%;
+    text-align: center;
+    padding: 1.6rem;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: $color-white;
+
+    & > img {
+      height: 5rem;
+      width: 5rem;
+    }
+  }
+
+  &__content {
+    background-color: $color-pink;
+    overflow-y: scroll;
+  }
+
+  &__form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: $color-primary-light;
+    justify-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    gap: 1rem 2rem;
+    border-radius: 3px;
+    transition: all 0.3s;
+  }
+
+  &__form--select {
+    width: 90%;
+  }
+
+  &__form--group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    width: 100%;
+
+    & > label {
+      font-size: 1.3rem;
+    }
+  }
+
+  &__form--input {
+    padding: 0.5rem 1rem;
+    width: 70%;
+    border: none;
+    border-radius: 3px;
+    color: #222;
+    font-family: inherit;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__list {
+    list-style-type: none;
+    cursor: pointer;
+  }
+
+  &__item {
+    background-color: $color-primary-light;
+    border-radius: 3px;
+    width: 80%;
+    margin: 2rem auto;
+    padding: 2.2rem;
+  }
+
+  &__event {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: $color-slight;
+  }
+
+  &__details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__details--box {
+    display: flex;
+    align-items: center;
+
+    font-size: 1.5rem;
+  }
+
+  &__details--detail {
+    color: $color-slight;
+    font-size: 1.2rem;
+  }
+
+  &__details--number {
+    margin: 0 0.5rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+}

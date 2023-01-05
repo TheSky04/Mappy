@@ -1,0 +1,14 @@
+{
+  "name": "mappy",
+  "version": "1.0.0",
+  "description": "Mappy is an app that you can organize an event and check the currently active events.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass sass/main.scss css/style.css -w"
+  },
+  "author": "Furkan Baş",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.56.1"
+  }
+}

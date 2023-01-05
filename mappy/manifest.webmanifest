@@ -1,0 +1,14 @@
+{
+  "icons": [
+    {
+      "src": "logos/map-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logos/map-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

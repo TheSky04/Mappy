@@ -1,0 +1,46 @@
+// COLOR VARIABLES
+$color-primary-light: #fa5252;
+$color-primary: #f03e3e;
+$color-primary-dark: #e03131;
+
+$color-white: #fff;
+$color-slight: #f1f3f5;
+$color-pink: #a61e4d;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.6rem;
+  background-image: linear-gradient(
+    to right,
+    $color-primary-light,
+    $color-primary
+  );
+  height: 100vh;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+.app__form.hidden {
+  height: 0;
+  padding: 0 2.25rem;
+  margin-bottom: 0;
+  opacity: 0;
+}
+
+.form__btn {
+  display: none;
+}
